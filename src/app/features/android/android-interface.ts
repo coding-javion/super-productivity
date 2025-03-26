@@ -87,6 +87,7 @@ export interface AndroidInterface {
   getFileRev(filePath: string): string;
   readFile(filePath: string): string;
   writeFile(filePath: string, data: string): string;
+  removeFile(filePath: string): undefined;
 
   // added here only
   onResume$: Subject<void>;
