@@ -61,6 +61,25 @@
         }
       }
     },
+    "BOARDS": {
+      "DEFAULT": {
+        "DONE": "完成",
+        "EISENHAUER_MATRIX": "艾森豪威尔矩阵",
+        "IMPORTANT": "重要",
+        "IN_PROGRESS": "正在进行",
+        "KANBAN": "看板",
+        "NOT_URGENT_IMPORTANT": "不紧急 & 重要",
+        "NOT_URGENT_NOT_IMPORTANT": "不紧急 & 不重要",
+        "TO_DO": "待办",
+        "URGENT": "紧急",
+        "URGENT_IMPORTANT": "紧急 & 重要",
+        "URGENT_NOT_IMPORTANT": "紧急 & 不重要"
+      },
+      "FORM": {
+        "TASK_DONE_STATE_DONE": "已完成",
+        "TASK_DONE_STATE_UNDONE": "未完成"
+      }
+    },
     "BOOKMARK": {
       "BAR": {
         "ADD": "添加书签",
@@ -156,7 +175,6 @@
     },
     "FOCUS_MODE": {
       "BACK_TO_PLANNING": "返回到计划",
-      "CANCEL_FOCUS_SESSION": "取消聚焦会话",
       "CONGRATS": "恭喜您完成本次聚焦会话!",
       "CONTINUE_FOCUS_SESSION": "继续聚焦会话",
       "FINISH_TASK_AND_SELECT_NEXT": "完成聚焦会话，选择下一个",
@@ -178,7 +196,8 @@
       "SHOW_HIDE_NOTES_AND_ATTACHMENTS": "显示/隐藏任务注释和附件",
       "START_FOCUS_SESSION": "开始聚焦会话",
       "START_NEXT_FOCUS_SESSION": "开始下一个聚焦会话",
-      "WORKED_FOR": "您正在进行"
+      "WORKED_FOR": "您正在进行",
+      "CANCEL_FOCUS_SESSION": "取消聚焦会话"
     },
     "GITEA": {
       "ISSUE_CONTENT": {
